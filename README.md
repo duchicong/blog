@@ -1,2 +1,1 @@
-# cong.github.io
-Blog share to programming
+# This is a blog share to programming
