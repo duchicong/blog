@@ -29,6 +29,20 @@ url: 'https://duchicong.github.io' # the base hostname & protocol for your site,
 facebook_username: duchicong
 github_username: duchicong
 
+# fields minima uses, but are note defulated with the jekyll new command.
+# Author is the default for posts, the Atom feed, and is used in the footer.
+author: Du Chi Cong
+
+# New fields not defaulted by jekyll-new with the minima theme
+# Add a copyright. A copyright symbol and yar will be added automatically
+copyright: 'Website designed by Du Chi Cong'
+
+# title-logo is a new field that, when used, displays a logo
+# instead of custom text. Ideally, image is 50px height and takes up
+# minimal horizontal space. Tested with a new root "images" folder e.g.:
+# title-logo: /images/my-logo (or JPG, etc.)
+title-logo: /images/me.jpg
+
 # Build settings
 # Removed minima theme as it is now a regular theme.
 # theme: minima
