@@ -106,3 +106,17 @@ let phone = /(?=.{11,15}$)((\+84)?\d{3}(((-| )+)\d{3,4})+)/gm
 > `(((-| )+)\d{3,4})` : lưu lại ký tự `-| ` và 3-4 ký tự số sau mỗi lần nhập  
 > `(?=.{11,15}$)`: tìm trong chuỗi đoạn phù hợp từ 11-15 ký tự  
 > tham số `g`: global, `m`: multiple line
+
+**Format hex colors**
+
+```js
+let hexColor = /\#([a-fA-F\d]{3,6})/
+
+/*
+ * hợp lệ:
+ * #ff0000
+ * #000
+ * #aaaff
+ * #0f0f0f
+ */
+```
